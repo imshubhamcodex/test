@@ -1,0 +1,39 @@
+$body-color: #FFF;
+
+body {
+  background: $body-color !important;
+}
+header {
+  background: #C9C9C1;
+
+  .nav-bar {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.navbar-header {
+  .search-box  {
+    position: absolute;
+    bottom: 12px;
+    width: 100%;
+  }
+}
+
+.search-box {
+  margin-top: 16px;
+  position: relative;
+  svg {
+    position: absolute;
+    right: 22px;
+    top: 10px;
+  }
+}
+.breadcrumb {
+  margin-bottom: 0px;
+}
+.footer {
+  padding: 10px;
+  min-height: 50px;
+}
